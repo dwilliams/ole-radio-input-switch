@@ -422,14 +422,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 3050 1450 2950
 Wire Wire Line
-	1250 3450 1450 3450
-Wire Wire Line
-	1450 3450 1450 3550
-Wire Wire Line
-	1250 3150 1600 3150
-Wire Wire Line
-	1600 3150 1600 2250
-Wire Wire Line
 	1600 1100 1900 1100
 Wire Wire Line
 	2400 2250 1600 2250
@@ -471,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1700 2850 1700
 Text Notes 7000 5750 0    50   ~ 0
-1) Input from radio section must be through a capacitor.\n2) Output to the output section should be through a capacitor.\n3) Pin 2 on the five pin connector is referenced to GND and 5V\n    - LO (GND) - Radio\n    - HI (5V) - BT
+1) Input from radio section must be through a capacitor.\n2) Output to the output section should be through a capacitor.\n3) Pin 5 on the five pin connector is referenced to GND and 5V\n    - LO (GND) - Radio\n    - HI (5V) - BT
 Wire Wire Line
 	6000 4700 6100 4700
 Wire Wire Line
@@ -762,4 +754,14 @@ Wire Wire Line
 Connection ~ 6750 1500
 Wire Wire Line
 	6750 1500 7000 1500
+Wire Wire Line
+	1250 3150 1450 3150
+Wire Wire Line
+	1450 3150 1450 3550
+Wire Wire Line
+	1250 3450 1600 3450
+Wire Wire Line
+	1600 2250 1600 3450
+Text Notes 1650 3200 0    50   ~ 0
+Swapped pins 2 & 5\nto match BT module
 $EndSCHEMATC
