@@ -6,9 +6,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Power Board - 12V Filaments - End Ground"
-Date "2019-10-02"
-Rev "0.1"
-Comp ""
+Date "2019-10-13"
+Rev "0.2"
+Comp "Fbus"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -20,7 +20,7 @@ U 1 1 5D8409E4
 P 2200 2250
 F 0 "D1" V 2154 2329 50  0000 L CNN
 F 1 "D" V 2245 2329 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2200 2250 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2200 2250 50  0001 C CNN
 F 3 "~" H 2200 2250 50  0001 C CNN
 	1    2200 2250
 	0    1    1    0   
@@ -64,7 +64,7 @@ U 1 1 5D842F76
 P 2200 2750
 F 0 "D2" V 2154 2829 50  0000 L CNN
 F 1 "D" V 2245 2829 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" H 2200 2750 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2200 2750 50  0001 C CNN
 F 3 "~" H 2200 2750 50  0001 C CNN
 	1    2200 2750
 	0    1    1    0   
@@ -74,8 +74,8 @@ L Device:CP1 C2
 U 1 1 5D84323D
 P 2600 2750
 F 0 "C2" H 2715 2796 50  0000 L CNN
-F 1 "4.7 uF" H 2715 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 2750 50  0001 C CNN
+F 1 "220 uF" H 2715 2705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2600 2750 50  0001 C CNN
 F 3 "~" H 2600 2750 50  0001 C CNN
 	1    2600 2750
 	1    0    0    -1  
@@ -85,8 +85,8 @@ L Device:CP1 C1
 U 1 1 5D8437A1
 P 2600 2250
 F 0 "C1" H 2715 2296 50  0000 L CNN
-F 1 "4.7 uF" H 2715 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 2250 50  0001 C CNN
+F 1 "220 uF" H 2715 2205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2600 2250 50  0001 C CNN
 F 3 "~" H 2600 2250 50  0001 C CNN
 	1    2600 2250
 	1    0    0    -1  
@@ -96,8 +96,8 @@ L Device:CP1 C5
 U 1 1 5D84406D
 P 4450 1750
 F 0 "C5" H 4565 1796 50  0000 L CNN
-F 1 "0.1 uF" H 4565 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 1750 50  0001 C CNN
+F 1 "4.7 uF" H 4565 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4450 1750 50  0001 C CNN
 F 3 "~" H 4450 1750 50  0001 C CNN
 	1    4450 1750
 	1    0    0    -1  
@@ -184,8 +184,8 @@ L Device:CP1 C3
 U 1 1 5D9A9BF2
 P 3600 2250
 F 0 "C3" H 3715 2296 50  0000 L CNN
-F 1 "0.1 uF" H 3715 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 2250 50  0001 C CNN
+F 1 "4.7 uF" H 3715 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3600 2250 50  0001 C CNN
 F 3 "~" H 3600 2250 50  0001 C CNN
 	1    3600 2250
 	1    0    0    -1  
@@ -195,8 +195,8 @@ L Device:CP1 C4
 U 1 1 5D9AA1EF
 P 3600 2750
 F 0 "C4" H 3715 2796 50  0000 L CNN
-F 1 "0.1 uF" H 3715 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 2750 50  0001 C CNN
+F 1 "4.7 uF" H 3715 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3600 2750 50  0001 C CNN
 F 3 "~" H 3600 2750 50  0001 C CNN
 	1    3600 2750
 	1    0    0    -1  
